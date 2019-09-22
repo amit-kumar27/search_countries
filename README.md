@@ -1,2 +1,5 @@
-# search_countries
-input with tags and autosuggest options
+## TO VIEW THE DEMO
+
+####  1. COPY THE PATH OF 'index.html' FILE
+####  2. PASTE THE PATH IN THE BROWSER'S ADDRESS BAR
+####  3. ENTER THE CODE FOR ANY COUNTRY AND SELECT THE DESIRED ONE FROM THE DROPDOWN
