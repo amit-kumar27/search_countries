@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../dist/stylesheets/inputTag.css">
+    <link rel="stylesheet" href="../dist/stylesheets/loader.css">
+
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>-->
+</head>
+
+<body>
+    <div id="loader" style="display: none"></div>
+    <div class="container">
+        <div class="inputLabel">
+            Enter country code:
+        </div>
+        
+        <div id="tags">
+            <input type="text" id="add_tag" placeholder="Add a country">
+        </div>
+        <div class="tags_dropdown">
+            <ul class="suggestions" id="suggestions">
+                
+            </ul>
+        </div>
+        <div id="list">
+            Countries: []
+        </div>
+    </div>
+    
+</body>
+
+<script src="../dist/js/xhrPromise.js"></script>
+<script src="../dist/js/loader.js"></script>
+<script src="../dist/js/tag-input.js"></script>
+<script>
+    new inputTags({
+        asd: true,
+        id: 'add_tag',
+        maxTags: 250,
+        allowDuplicateTags: false,
+    });
+
+</script>
+
+</html>
